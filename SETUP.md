@@ -32,7 +32,7 @@ You can also use the **Sync fork** button on GitHub.
 ### Prerequisites
 
 - **Node.js 24.11 or newer.** The book says 18. That is out of date. Check with `node --version`. With [nvm](https://github.com/nvm-sh/nvm), run `nvm install 24`.
-- **A normal user account.** Do not use `sudo` or run as root, because the bundled Postgres database will not start as root.
+- **A normal user account.** Do not use `sudo` or run as root, because the bundled Postgres database will not start as root. On a fresh server where you are logged in as root, create a regular user first and install Paperclip as that user.
 - **An agent runtime with credentials,** so agents can do real work. One example is [Claude Code](https://code.claude.com/docs): install it, then run `claude` once to sign in. Instead of a subscription login, you can set `ANTHROPIC_API_KEY`. Signing in to Claude or Codex locally with a subscription also needs Python 3.
 
 ### Install and run
