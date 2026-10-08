@@ -75,7 +75,7 @@ Found a typo? Have a suggestion? Want to submit a blurb?
 
 ## 🔗 Links
 
-[Paperclip](https://paperclip.ing) | [Singularity Playground](https://playground.earthpilot.co/singularity)
+[Setup Guide](SETUP.md) | [Paperclip](https://paperclip.ing) | [Singularity Playground](https://playground.earthpilot.co/singularity)
 
 ## 📄 License
 
